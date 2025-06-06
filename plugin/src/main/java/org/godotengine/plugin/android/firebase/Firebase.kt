@@ -10,7 +10,7 @@ import org.godotengine.godot.plugin.SignalInfo
 
 
 @Suppress("Unused")
-class Firebase(godot: Godot): GodotPlugin(godot) {
+class FirebasePlugin(godot: Godot): GodotPlugin(godot) {
 	override fun getPluginName(): String {
 		return "FirebasePlugin"
 	}
