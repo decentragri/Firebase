@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="org.godotengine.plugin.android.firebase">
+
+	<!-- Essential permissions for Firebase Cloud Messaging -->
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.WAKE_LOCK"/>
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+
+	<!-- Optional background location permission, only needed if location used explicitly
+		<uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+	-->
+
+	<application>
+		<!-- Plugin metadata -->
+		<meta-data
+			android:name="org.godotengine.plugin.v2.${godotPluginName}"
+			android:value="${godotPluginPackageName}.Firebase" />
+	</application>
+</manifest>
