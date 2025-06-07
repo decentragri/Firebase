@@ -36,7 +36,7 @@ class FirebasePlugin(godot: Godot): GodotPlugin(godot) {
 			}
 		}
 
-		return null // <--- You must explicitly return null (or a valid View instance)
+		return null
 	}
 	override fun getPluginSignals(): Set<SignalInfo> {
 		return setOf(SignalInfo("fcm_token_received", String::class.java))
