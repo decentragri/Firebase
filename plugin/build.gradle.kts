@@ -42,9 +42,8 @@ dependencies {
 
 	// Required for location permission checks
 	implementation("androidx.core:core-ktx:1.12.0")
-    implementation(platform("com.google.firebase:firebase-bom:33.15.0"))
-    implementation("com.google.firebase:firebase-messaging-ktx")
-    implementation("com.google.firebase:firebase-inappmessaging-display-ktx")
+    implementation("com.google.firebase:firebase-messaging-ktx:24.1.1")
+    implementation("com.google.firebase:firebase-inappmessaging-display-ktx:21.0.2")
     implementation("com.google.firebase:firebase-analytics")
 
 }
